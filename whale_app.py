@@ -40,7 +40,7 @@ if img_file_buffer is not None:
     #st.write(image.shape)
 with CustomObjectScope(
     {'GlorotUniform': glorot_uniform()}):
-    model = load_model('./models/mobilenet_transfer_model.h5')
+    model = load_model('./mobilenet_transfer_model.h5')
 
 with open("./prediction_dict.json", "r") as file:
     dictionary = json.load(file)
