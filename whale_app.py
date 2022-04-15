@@ -15,7 +15,7 @@ st.title('Love Dolphins & Whales?')
 st.markdown('This super classifier here will classify your marine spotting photo as one of a total of 30 different whale and dolphin species!')
 
 
-img_file_buffer = st.file_uploader("Choose a file")
+img_file_buffer = st.file_uploader("Choose a .jpg file")
 
 if img_file_buffer is not None:
 
